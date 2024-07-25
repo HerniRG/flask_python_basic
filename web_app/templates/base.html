@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoClub Pepi</title>
+</head>
+<body>
+    <header>
+        <p>VideoClub Pepi - {% block title %}{% endblock %}</p>
+    </header>
+
+    <nav>
+        <a href="./peliculas">Peliculas</a> <a href="./">Home</a> <a href="./adios">Adios</a> 
+    </nav>
+
+    <section>
+        {% block contenido %}{% endblock %}
+    </section>
+
+    <footer>
+        <p>@copy; Hernán Rodríguez - 2024</p>
+    </footer>
+</body>
+</html>
